@@ -1,4 +1,4 @@
-# Sprint Challenge: User Interface and Git - Multi-Page Website
+# Sprint Challenge: User Interface and Git - Multi-Page Website 
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
 
@@ -34,13 +34,36 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML offers a set of standard or reccomended HTML tags that gives more meaning to the content of your page. This allows both developers and machines to better understand the content of your page. 
+    
+    It also faciltates accessibility for physically-impaired users. For example, screen-readers can use semantic HTML tags as queues for determining the appropriate audio-output to provide to the hearing impaired user.
+
+    And lastly, it can be leveraged for search engine optimization (SEO).
+    
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    The ```display: block;``` property causes an element to take up the entire width of its parent container.
+    It also allows the element to be resized both vertically and horizontally, and can contain other nested block elements.
+
+    The ```display: inline;``` property will cause an element to display in line with the flow of the page. In other words,
+    it doesn't break the flow of the page. It can also be resized horizontally, but not vertically, and cannot contain nested block elements.
 
 3. What are the 4 areas of the box model?
 
+    (From outside-in) Margin, Border, Padding, Content.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    The cross-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+    Git offers a team of developers to the ability to work in safe, isolated, branched environments, 
+    and to revert or toggle between previous versions in their commit history, allowing each developer 
+    to work/experiment with the highest degree of autonomy without affecting production code. 
+
+	And, it does so while still relinquishing full control to the Lead Developer to decide which pull requests 
+	to merge or integrate into production code.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
